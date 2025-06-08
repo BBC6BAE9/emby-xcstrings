@@ -78,9 +78,12 @@ def create_xcstrings_content(source_lang: str, translations: Dict[str, Dict[str,
 def main():
     # 定义语言文件映射
     lang_files = {
-        "en": "en.json",
+        "en": "en-US.json",
         "ja": "ja.json",
-        "zh-Hans": "zh-Hans.json"
+        "zh-HK": "zh-HK.json",
+        "zh-Hans": "zh-Hans.json",
+        "zh-Hant": "zh-TW.json",
+        "ko": "ko.json"
     }
     
     # 读取所有翻译文件
